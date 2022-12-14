@@ -1,7 +1,21 @@
 /* GENERICS */
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
 
 .c-flex {
     display: flex;
+}
+
+button {
+    background-color: #0161ff;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border: none;
 }
 
 /* HEADER */
@@ -10,16 +24,35 @@
     height: 4rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    color: #303030;
+    font-size: 0.8rem;
 
     /* Debug */
-    background-color: bisque;
-    border: 2px dashed black;
+    /* background-color: bisque;
+    border: 2px dashed black; */
 }
 
 .top-header-left,
 .top-header-right {
     gap: 1.5rem;
+    padding-right: 1rem;
+}
+
+#logo>a>img {
+    transform: scale(.75);
+}
+
+.top-header-left>div,
+.top-header-right>div {
+    align-self: center;
+}
+
+.top-header a {
+    color: #070707;
+}
+
+.top-header-right>button {
+    margin-left: -.5rem;
 }
 
 /* Jumbotron */
@@ -224,5 +257,5 @@ footer {
 }
 
 .bottom-footer {
-    border-top: 2px solid lightgrey;
+    box-shadow: 0 0 0 0 light gray;
 }
