@@ -279,8 +279,8 @@ button {
     width: 65%;
 
     /* Debug */
-    height: 20rem;
-    background-color: red;
+    /* height: 20rem;
+    background-color: red; */
 }
 
 .section-2-right,
@@ -288,11 +288,28 @@ button {
     width: 32%;
 
     /* Debug */
-    height: 20rem;
-    background-color: rgb(0, 255, 89);
+    /* height: 20rem;
+    background-color: rgb(0, 255, 89); */
 }
 
+.section-2-right>h2 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 2rem 1rem 0rem 1rem;
+}
 
+.section-2-right>p {
+    font-size: .8em;
+    padding: 1rem;
+}
+
+.section-2-right>button {
+    font-size: .8rem;
+    margin: 1rem;
+    border: .0625rem solid black;
+    background-color: white;
+    color: #303030;
+}
 
 /* Section 3 */
 
