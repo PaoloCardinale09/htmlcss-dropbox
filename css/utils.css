@@ -8,8 +8,13 @@
 
 /* UTILS */
 
-.container {
-	max-width: 1200px;
+.container-large {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container-small {
+	max-width: 800px;
 	margin: 0 auto;
 }
 
