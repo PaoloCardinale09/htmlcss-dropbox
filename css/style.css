@@ -52,7 +52,7 @@ button {
 }
 
 .top-header-right>button {
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
 }
 
 /* Jumbotron */
@@ -107,6 +107,17 @@ button {
 /* MAIN */
 
 /* section 1 */
+
+.section1 {
+    padding-top: 8rem;
+}
+
+.section1 h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 2.5rem;
+}
+
 .row-section1>.col {
     width: 30%;
 
@@ -128,6 +139,23 @@ button {
     /* Debug */
     height: 15rem;
     background-color: lightblue;
+}
+
+.section1 span {
+    font-size: .8rem;
+    margin-right: 2rem;
+}
+
+.littlesquare {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 2px solid #d0d0d3;
+    margin-right: .2rem;
+}
+
+.blue {
+    border: 4px solid #0161ff;
 }
 
 /* Section 2 */
