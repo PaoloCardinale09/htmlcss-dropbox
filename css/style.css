@@ -59,40 +59,49 @@ button {
 
 .jumbotron {
     background-color: #b4d0e7;
+    padding: 1rem 0;
+
+    /* Debug */
+    /* height: 34rem; */
+}
+
+.jumbotron h2 {
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 900;
     padding: 2.5rem 0;
-
-    /* Debug */
-    height: 34rem;
 }
 
-.jumbotron-space {
-
-    /* Debug */
-    background-color: rgb(91, 204, 204);
-    height: 100%;
-    border: 2px dashed black;
-}
 
 .jumbotron-left {
     flex-direction: column;
-    /* display: inline-block; */
     width: 30%;
+    justify-content: space-between;
     /* Debug */
-    background-color: red;
-    border: 2px dashed black;
+    /* background-color: red; */
+    /* border: 2px dashed black; */
 }
 
 .jumbotron-right {
     width: 60%;
-    /* display: inline-block; */
     /* Debug */
     /* height: 100%; */
-    background-color: rgb(81, 125, 41);
-    border: 2px dashed black;
+    /* background-color: rgb(81, 125, 41);
+    border: 2px dashed black; */
 }
 
 .jumbotron-side {
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.jumbotron-right>img {
+    position: relative;
+    transform: scale(1.2);
+    top: 2rem;
+}
+
+.jumbotron-left>span>i {
+    font-size: 2.5rem;
 }
 
 /* MAIN */
