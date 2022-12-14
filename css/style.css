@@ -188,21 +188,58 @@ button {
     font-weight: 900;
 }
 
-.piedi {
+.enterprise {
     width: 100%;
     margin: 2.5rem 0;
+    border: 1px solid lightgray;
 
     /* Debug */
-    height: 15rem;
-    background-color: lightblue;
+    /* height: 15rem; */
+    /* background-color: lightblue; */
 }
 
-.piedi-left {
+.enterprise-left {
     width: 65%;
+    padding: 1rem;
 }
 
-.piedi-left {
+.enterprise-left>h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 1rem 0;
+}
+
+.enterprise-main-text>span {
+    font-weight: 900;
+}
+
+.enterprise-main-text {
+    padding-bottom: 1rem;
+}
+
+.enterprise-side-text {
+    padding: 1rem 0;
+}
+
+.enterprise-right {
     width: 35%;
+    text-align: end;
+    padding: 1.5rem;
+}
+
+.enterprise-right>button {
+    padding: 0.5rem 1.5rem;
+}
+
+.address-to {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: .5rem 0;
+}
+
+.flex-container-enterprise {
+    display: flex;
+    justify-content: space-between;
 }
 
 .section1 span {
