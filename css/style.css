@@ -466,6 +466,7 @@ footer {
 }
 
 .top-footer {
+    display: flex;
     padding: 2.5rem 0;
 }
 
