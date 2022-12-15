@@ -10,7 +10,50 @@ button {
     border: .0625rem solid transparent;
 }
 
+/* BONUS */
 
+button:hover {
+    opacity: 66%;
+}
+
+/* BONUS HEADER */
+
+.top-header-left li,
+.top-header-right li {
+    position: relative;
+    display: inline-block;
+}
+
+.top-header-left li:after,
+.top-header-right li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: width .0s;
+}
+
+#btn-special:after,
+#logo-special:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2.875rem;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: width .0s;
+}
+
+.top-header-left li:hover:after,
+.top-header-right li:hover::after,
+#btn-special:hover::after,
+#logo-special:hover::after {
+    width: 100%;
+}
 
 /* HEADER */
 
@@ -36,7 +79,7 @@ button {
     padding-right: 1rem;
 }
 
-#logo>a>img {
+#logo-special>a>img {
     transform: scale(.75);
 }
 
@@ -44,6 +87,7 @@ button {
 .top-header-right>li {
     align-self: center;
 }
+
 
 .top-header a {
     color: #070707;
@@ -83,14 +127,7 @@ button {
 
 .jumbotron-left>span {
     margin-top: auto;
-}
-
-.jumbotron-right {
-
-    /* Debug */
-    /* height: 100%; */
-    /* background-color: rgb(81, 125, 41);
-    border: 2px dashed black; */
+    font-size: 2.5rem;
 }
 
 .jumbotron-side {
@@ -102,10 +139,6 @@ button {
     position: relative;
     transform: scale(1.2);
     top: 2.2rem;
-}
-
-.jumbotron-left>span>i {
-    font-size: 2.5rem;
 }
 
 /* MAIN */
