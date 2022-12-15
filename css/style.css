@@ -64,6 +64,7 @@ button {
     background-color: #b4d0e7;
     padding: 1rem 0;
 
+
     /* Debug */
     /* height: 34rem; */
 }
@@ -311,7 +312,7 @@ button {
 .section-partners {
     display: flex;
     /* Debug */
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .partners-left,
@@ -331,8 +332,7 @@ button {
 
 }
 
-.partners-left img,
-.partners-right img {
+.section-partners img {
     width: 50%;
     filter: invert(1);
 }
@@ -348,6 +348,21 @@ button {
     /* border: 2px dashed black; */
 }
 
+.box-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    background-color: #a2d39b;
+}
+
+.partners-bottom {
+    background-color: #b4d0e7;
+    margin-bottom: 2.5rem;
+}
+
+/* LEFT SQUARE */
 .partners-left .box-top-left {
     background-color: #d2e9cd;
 }
@@ -363,6 +378,8 @@ button {
 .partners-left .box-bottom-right {
     background-color: #ff1b1c;
 }
+
+/* RIGHT SQUARE */
 
 .partners-right .box-top-left {
     background-color: #d50020;
@@ -380,19 +397,23 @@ button {
     background-color: #ffd830;
 }
 
-.box-small {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    width: 90%;
-    background-color: #a2d39b;
+/* CENTER SQUARE */
+
+.partners-center {
+    background-color: #f5f5f5;
 }
 
-.partners-bottom {
-    background-color: #b4d0e7;
-    margin-bottom: 2.5rem;
+#img-no-invert {
+    filter: invert(0);
+    margin: 2rem;
 }
+
+.partners-center>.line,
+.partners-center>p,
+.partners-center>span {
+    margin: 0 2rem 2rem 2rem
+}
+
 
 /* Sezione domande frequenti */
 
