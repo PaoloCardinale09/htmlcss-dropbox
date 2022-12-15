@@ -75,14 +75,18 @@ button {
 .jumbotron-left {
     flex-direction: column;
     width: 30%;
-    justify-content: space-between;
+    gap: 1rem;
     /* Debug */
     /* background-color: red; */
     /* border: 2px dashed black; */
 }
 
+.jumbotron-left>span {
+    margin-top: auto;
+}
+
 .jumbotron-right {
-    width: 60%;
+
     /* Debug */
     /* height: 100%; */
     /* background-color: rgb(81, 125, 41);
@@ -91,12 +95,13 @@ button {
 
 .jumbotron-side {
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .jumbotron-right>img {
     position: relative;
     transform: scale(1.2);
-    top: 2rem;
+    top: 2.2rem;
 }
 
 .jumbotron-left>span>i {
@@ -162,6 +167,10 @@ button {
     padding: .5rem 0;
 }
 
+.points span i {
+    color: #0161ff;
+}
+
 .enterprise {
     width: 100%;
     margin: 2.5rem 0 7rem 0;
@@ -215,7 +224,7 @@ button {
 
 .section1 span {
     font-size: .8rem;
-    margin-right: 2rem;
+    margin-right: .3rem;
 }
 
 .littlesquare {
@@ -235,6 +244,11 @@ button {
 .points {
     display: flex;
     flex-direction: column;
+}
+
+.specifics,
+.points {
+    gap: 1rem;
 }
 
 /* Section 2 */
