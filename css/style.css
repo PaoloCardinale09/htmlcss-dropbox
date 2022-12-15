@@ -13,7 +13,7 @@ button {
     background-color: #0161ff;
     color: white;
     padding: 0.3rem 0.8rem;
-    border: none;
+    border: .0625rem solid transparent;
 }
 
 .light-gray {
@@ -357,10 +357,6 @@ button {
     background-color: #a2d39b;
 }
 
-.partners-bottom {
-    background-color: #b4d0e7;
-    margin-bottom: 2.5rem;
-}
 
 /* LEFT SQUARE */
 .partners-left .box-top-left {
@@ -414,6 +410,25 @@ button {
     margin: 0 2rem 2rem 2rem
 }
 
+/* PARTNERS BOTTOM */
+
+.partners-bottom {
+    background-color: #b4d0e7;
+    margin-bottom: 2.5rem;
+    padding: 6rem;
+}
+
+.partners-bottom button {
+    font-size: .8rem;
+    margin: 1rem 0;
+    border: .0625rem solid transparent;
+    background-color: white;
+    color: #303030;
+}
+
+.partners-bottom-right {
+    text-align: end;
+}
 
 /* Sezione domande frequenti */
 
