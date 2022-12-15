@@ -59,6 +59,25 @@ h4 {
 	color: #0161ff;
 }
 
+hr {
+	border: none;
+	height: 0.0625rem;
+	background-color: lightgray;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+}
+
+.light-gray {
+	color: lightgrey;
+}
+
 /* PADDING */
 
 .p1 {
