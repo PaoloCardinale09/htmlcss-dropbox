@@ -40,8 +40,8 @@ button {
     transform: scale(.75);
 }
 
-.top-header-left>div,
-.top-header-right>div {
+.top-header-left>li,
+.top-header-right>li {
     align-self: center;
 }
 
