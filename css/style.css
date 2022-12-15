@@ -20,6 +20,10 @@ button {
     align-items: center;
     color: #303030;
     font-size: 0.8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 
     /* Debug */
     /* background-color: bisque;
@@ -53,7 +57,7 @@ button {
 
 .jumbotron {
     background-color: #b4d0e7;
-    padding: 1rem 0;
+    padding: 5rem 0 1rem 0;
 
 
     /* Debug */
@@ -441,11 +445,13 @@ button {
 }
 
 /* FOOTER */
-
+/* Top footer */
 footer {
-    height: 20rem;
     background-color: black;
     color: white;
+
+    /* Debug */
+    /* height: 20rem; */
 }
 
 .top-footer>ul {
@@ -470,6 +476,14 @@ footer {
     padding: 2.5rem 0;
 }
 
-.bottom-footer {
-    box-shadow: 0 0 0 0 light gray;
+/* Bottom footer */
+
+.bottom-footer hr {
+    width: 10%;
+    margin: 2rem 0;
+}
+
+.bottom-footer span {
+    display: inline-block;
+    padding: 1.5rem 0 3rem 0;
 }
