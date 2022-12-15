@@ -7,6 +7,20 @@
 }
 
 /* UTILS */
+h2 {
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+h4 {
+	font-size: .8rem;
+	font-weight: 900;
+}
 
 .container-large {
 	max-width: 1000px;
@@ -22,6 +36,27 @@
 	content: '';
 	clear: both;
 	display: table;
+}
+
+.c-flex {
+	display: flex;
+}
+
+.w-35 {
+	width: 35%;
+}
+
+.w-65 {
+	width: 65%;
+}
+
+.font-small {
+	font-size: .8rem;
+}
+
+.underline {
+	text-decoration: underline;
+	color: #0161ff;
 }
 
 /* PADDING */

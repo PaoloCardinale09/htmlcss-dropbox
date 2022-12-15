@@ -7,9 +7,7 @@ a {
     text-decoration: none;
 }
 
-.c-flex {
-    display: flex;
-}
+
 
 button {
     background-color: #0161ff;
@@ -22,14 +20,11 @@ button {
     color: lightgrey;
 }
 
-.font-small {
-    font-size: .8rem;
-}
 
 /* HEADER */
 
 .top-header {
-    height: 4rem;
+    min-height: 4rem;
     justify-content: space-between;
     align-items: center;
     color: #303030;
@@ -73,7 +68,7 @@ button {
     /* height: 34rem; */
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
     font-size: 4rem;
     text-align: left;
     font-weight: 900;
@@ -121,8 +116,6 @@ button {
 }
 
 .section1 h2 {
-    font-size: 2rem;
-    font-weight: 900;
     padding-bottom: 2.5rem;
 }
 
@@ -151,11 +144,6 @@ button {
     margin: 0 -1rem;
 }
 
-.plans>h3 {
-    font-size: 1.5rem;
-    font-weight: 900;
-}
-
 .plans {
     line-height: 2rem;
 }
@@ -178,19 +166,9 @@ button {
     padding: .5rem 0;
 }
 
-
-.col>span>a {
-    text-decoration: underline;
-    color: #0161ff;
-}
-
-.points>h3 {
-    font-weight: 900;
-}
-
 .enterprise {
     width: 100%;
-    margin: 2.5rem 0;
+    margin: 2.5rem 0 7rem 0;
     border: 1px solid lightgray;
 
     /* Debug */
@@ -199,13 +177,15 @@ button {
 }
 
 .enterprise-left {
-    width: 65%;
     padding: 1rem;
 }
 
+.enterprise-right {
+    text-align: end;
+    padding: 1.5rem;
+}
+
 .enterprise-left>h3 {
-    font-size: 1.2rem;
-    font-weight: 900;
     padding: 1rem 0;
 }
 
@@ -221,11 +201,6 @@ button {
     padding: 1rem 0;
 }
 
-.enterprise-right {
-    width: 35%;
-    text-align: end;
-    padding: 1.5rem;
-}
 
 .enterprise-right>button {
     padding: 0.5rem 1.5rem;
@@ -270,42 +245,27 @@ button {
 
 .section2 {
     display: flex;
-    margin-bottom: 2.5rem;
+    margin-bottom: 7rem;
     justify-content: space-between;
 }
 
-.section-2-left,
-.partners-bottom-left {
-    width: 65%;
-
-    /* Debug */
-    /* height: 20rem;
-    background-color: red; */
+.section-2-right {
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
 }
 
-.section-2-right,
-.partners-bottom-right {
-    width: 32%;
-
-    /* Debug */
-    /* height: 20rem;
-    background-color: rgb(0, 255, 89); */
-}
-
-.section-2-right>h2 {
-    font-size: 1.2rem;
-    font-weight: 900;
-    padding: 2rem 1rem 0rem 1rem;
+.section-2-right>h3 {
+    padding: 2rem 1rem 0rem 0rem;
 }
 
 .section-2-right>p {
     font-size: .8em;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .section-2-right>button {
     font-size: .8rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: .0625rem solid black;
     background-color: white;
     color: #303030;
@@ -314,9 +274,15 @@ button {
 /* Section 3 */
 
 .section3 {
-
     margin-bottom: 2.5rem;
+}
 
+.section3>h2 {
+    margin-bottom: 3rem;
+}
+
+.section3 h3 {
+    margin-bottom: 1.5rem;
 }
 
 .row-section3 {
@@ -330,15 +296,14 @@ button {
     width: 30%;
 
     /* Debug */
-    height: 20rem;
-    background-color: darkgray;
+    /* height: 20rem;
+    background-color: darkgray; */
 }
 
 /* Section 4 */
 
 .section4 {
-    width: 65%;
-    margin-bottom: 2.5rem;
+    padding: 7rem 0;
 }
 
 /* Section Partners */
@@ -366,20 +331,62 @@ button {
 
 }
 
-.partners-left>.box {
-    height: calc(100vw / 3 / 2);
-    width: calc(100vw / 3 / 2);
-
-    /* Debug */
-    border: 2px dashed black;
+.partners-left img,
+.partners-right img {
+    width: 50%;
+    filter: invert(1);
 }
 
+.partners-left>.box,
 .partners-right>.box {
     height: calc(100vw / 3 / 2);
     width: calc(100vw / 3 / 2);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Debug */
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+}
+
+.partners-left .box-top-left {
+    background-color: #d2e9cd;
+}
+
+.partners-left .box-top-right {
+    background-color: #62092b;
+}
+
+.partners-left .box-bottom-left {
+    background-color: #0093ce;
+}
+
+.partners-left .box-bottom-right {
+    background-color: #ff1b1c;
+}
+
+.partners-right .box-top-left {
+    background-color: #d50020;
+}
+
+.partners-right .box-top-right {
+    background-color: #b4d0e7;
+}
+
+.partners-right .box-bottom-left {
+    background-color: #0d2481;
+}
+
+.partners-right .box-bottom-right {
+    background-color: #ffd830;
+}
+
+.box-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    background-color: #a2d39b;
 }
 
 .partners-bottom {
