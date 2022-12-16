@@ -1,6 +1,11 @@
 /* GENERICS */
 body {
     font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 button {
@@ -33,7 +38,7 @@ button:hover {
     width: 0;
     height: 3px;
     background-color: black;
-    transition: width .0s;
+    transition: width .3s;
 }
 
 #btn-special:after,
@@ -45,7 +50,7 @@ button:hover {
     width: 0;
     height: 3px;
     background-color: black;
-    transition: width .0s;
+    transition: width .3s;
 }
 
 .top-header-left li:hover:after,
@@ -53,6 +58,23 @@ button:hover {
 #btn-special:hover::after,
 #logo-special:hover::after {
     width: 100%;
+}
+
+/* FINE BONUS HEADER */
+
+/* BONUS DOMANDE FREQUENTI */
+
+.hovered:hover p {
+    display: block;
+}
+
+.hovered:hover i {
+    transform: rotate(180deg);
+}
+
+.freq-ask p {
+    display: none;
+    margin-bottom: 2rem;
 }
 
 /* HEADER */
